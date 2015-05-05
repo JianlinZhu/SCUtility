@@ -7,6 +7,7 @@
 //
 
 #import "NSDate+SCExtend.h"
+#import "SCMacroDefines.h"
 
 @implementation NSDate (SCExtend)
 
@@ -92,7 +93,7 @@
 	return [self formattedDateWithFormatString:@"截止:yy/MM/dd"];
 }
 
-- (NSString *)relativeDateString
+- (NSString *) relativeDateString
 {
     const int SECOND = 1;
     const int MINUTE = 60 * SECOND;
@@ -144,7 +145,7 @@
     return relativeString;
 }
 
-- (NSString *)weekday
+- (NSString *) weekday
 {
     NSCalendar *calendar = [[NSCalendar alloc]initWithCalendarIdentifier:NSCalendarIdentifierGregorian];
     NSDateComponents *component = [calendar components:NSCalendarUnitWeekday fromDate:self];
@@ -178,14 +179,14 @@
     return week;
 }
 
-- (NSString *)toStringWithFormat:(NSString *)format
+- (NSString *) toStringWithFormat:(NSString *)format
 {
     NSDateFormatter *dateFormater = [[NSDateFormatter alloc] init];
     [dateFormater setDateFormat:format];
     return [dateFormater stringFromDate:self];
 }
 
-- (NSString *)toStringWithDefaultFormat
+- (NSString *) toStringWithDefaultFormat
 {
     return [self toStringWithFormat:@"HH:mm"];
 }

@@ -7,6 +7,7 @@
 //
 
 #import "UIView+SCExtend.h"
+#import "SCMacroDefines.h"
 
 @implementation UIView (SCExtend)
 

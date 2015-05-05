@@ -13,6 +13,7 @@
 //
 
 #import "UncaughtExceptionHandler.h"
+#import "SCMacroDefines.h"
 #include <libkern/OSAtomic.h>
 #include <execinfo.h>
 
@@ -79,9 +80,6 @@ const NSInteger UncaughtExceptionHandlerReportAddressCount = 8;//5;
 			cancelButtonTitle:NSLocalizedString(@"Quit", nil)
 			otherButtonTitles:NSLocalizedString(@"Continue", nil), nil];
 	[alert show];
-#if !ARC_FEATURE
-    [alert release];
-#endif
     
     NSLog(@"Crash: %@", [exception description]);
     NSLog(@"Stack Trace: %@", [exception callStackSymbols]);
@@ -143,10 +141,6 @@ void HandleException(NSException *exception)
 				reason:[exception reason]
 				userInfo:userInfo]
 		waitUntilDone:YES];
-    
-#if !ARC_FEATURE
-    [exceptionHandler release];
-#endif
 }
 
 void SignalHandler(int signal)
@@ -182,10 +176,6 @@ void SignalHandler(int signal)
 						dictionaryWithObject:[NSNumber numberWithInt:signal]
 						forKey:UncaughtExceptionHandlerSignalKey]]
 		waitUntilDone:YES];
-    
-#if !ARC_FEATURE
-    [exceptionHandler release];
-#endif
 }
 
 void InstallUncaughtExceptionHandler(void)

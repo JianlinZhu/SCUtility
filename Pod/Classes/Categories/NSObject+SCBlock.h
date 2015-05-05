@@ -6,7 +6,7 @@
 //  Copyright (c) 2014 Jarry. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import "SCMacroDefines.h"
 
 @interface NSObject (SCBlock)
 
