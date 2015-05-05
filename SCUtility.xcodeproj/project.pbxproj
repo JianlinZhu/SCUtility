@@ -7,9 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		440ACC691AF8596E00A09136 /* SCUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = 440ACC681AF8596E00A09136 /* SCUtility.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		440ACC6F1AF8596E00A09136 /* SCUtility.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 440ACC631AF8596E00A09136 /* SCUtility.framework */; };
 		440ACC761AF8596E00A09136 /* SCUtilityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 440ACC751AF8596E00A09136 /* SCUtilityTests.m */; };
+		440ACC841AF85A5500A09136 /* SCCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = 440ACC811AF85A5500A09136 /* SCCategory.h */; };
+		440ACC851AF85A5500A09136 /* SCMacroDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 440ACC821AF85A5500A09136 /* SCMacroDefines.h */; };
+		440ACC861AF85A5500A09136 /* SCUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = 440ACC831AF85A5500A09136 /* SCUtility.h */; };
+		440ACC911AF85AA100A09136 /* DDASLLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 440ACC891AF85AA100A09136 /* DDASLLogger.h */; };
+		440ACC921AF85AA100A09136 /* DDASLLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 440ACC8A1AF85AA100A09136 /* DDASLLogger.m */; };
+		440ACC931AF85AA100A09136 /* DDFileLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 440ACC8B1AF85AA100A09136 /* DDFileLogger.h */; };
+		440ACC941AF85AA100A09136 /* DDFileLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 440ACC8C1AF85AA100A09136 /* DDFileLogger.m */; };
+		440ACC951AF85AA100A09136 /* DDLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 440ACC8D1AF85AA100A09136 /* DDLog.h */; };
+		440ACC961AF85AA100A09136 /* DDLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 440ACC8E1AF85AA100A09136 /* DDLog.m */; };
+		440ACC971AF85AA100A09136 /* DDTTYLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 440ACC8F1AF85AA100A09136 /* DDTTYLogger.h */; };
+		440ACC981AF85AA100A09136 /* DDTTYLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 440ACC901AF85AA100A09136 /* DDTTYLogger.m */; };
+		440ACCA71AF85C0900A09136 /* UncaughtExceptionHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 440ACC9B1AF85C0900A09136 /* UncaughtExceptionHandler.h */; };
+		440ACCA81AF85C0900A09136 /* UncaughtExceptionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 440ACC9C1AF85C0900A09136 /* UncaughtExceptionHandler.m */; };
+		440ACCA91AF85C0900A09136 /* IPAddress.c in Sources */ = {isa = PBXBuildFile; fileRef = 440ACC9E1AF85C0900A09136 /* IPAddress.c */; };
+		440ACCAA1AF85C0900A09136 /* IPAddress.h in Headers */ = {isa = PBXBuildFile; fileRef = 440ACC9F1AF85C0900A09136 /* IPAddress.h */; };
+		440ACCAB1AF85C0900A09136 /* NetWorkUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 440ACCA01AF85C0900A09136 /* NetWorkUtils.h */; };
+		440ACCAC1AF85C0900A09136 /* NetWorkUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 440ACCA11AF85C0900A09136 /* NetWorkUtils.m */; };
+		440ACCAD1AF85C0900A09136 /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 440ACCA21AF85C0900A09136 /* Reachability.h */; };
+		440ACCAE1AF85C0900A09136 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 440ACCA31AF85C0900A09136 /* Reachability.m */; };
+		440ACCAF1AF85C0900A09136 /* SCLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 440ACCA51AF85C0900A09136 /* SCLog.h */; };
+		440ACCB01AF85C0900A09136 /* SCLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 440ACCA61AF85C0900A09136 /* SCLog.m */; };
+		440ACCB21AF85D2100A09136 /* SCUtility-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 440ACCB11AF85D2100A09136 /* SCUtility-Prefix.pch */; };
+		440ACCBC1AF8680B00A09136 /* NSObject+SCBlock.h in Headers */ = {isa = PBXBuildFile; fileRef = 440ACCB81AF8680B00A09136 /* NSObject+SCBlock.h */; };
+		440ACCBD1AF8680B00A09136 /* NSObject+SCBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 440ACCB91AF8680B00A09136 /* NSObject+SCBlock.m */; };
+		440ACCBE1AF8680B00A09136 /* NSDate+SCExtend.h in Headers */ = {isa = PBXBuildFile; fileRef = 440ACCBA1AF8680B00A09136 /* NSDate+SCExtend.h */; };
+		440ACCBF1AF8680B00A09136 /* NSDate+SCExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = 440ACCBB1AF8680B00A09136 /* NSDate+SCExtend.m */; };
+		440ACCC21AF8683200A09136 /* UIView+SCExtend.h in Headers */ = {isa = PBXBuildFile; fileRef = 440ACCC01AF8683200A09136 /* UIView+SCExtend.h */; };
+		440ACCC31AF8683200A09136 /* UIView+SCExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = 440ACCC11AF8683200A09136 /* UIView+SCExtend.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,10 +52,37 @@
 /* Begin PBXFileReference section */
 		440ACC631AF8596E00A09136 /* SCUtility.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SCUtility.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		440ACC671AF8596E00A09136 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		440ACC681AF8596E00A09136 /* SCUtility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCUtility.h; sourceTree = "<group>"; };
 		440ACC6E1AF8596E00A09136 /* SCUtilityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SCUtilityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		440ACC741AF8596E00A09136 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		440ACC751AF8596E00A09136 /* SCUtilityTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCUtilityTests.m; sourceTree = "<group>"; };
+		440ACC811AF85A5500A09136 /* SCCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCCategory.h; sourceTree = "<group>"; };
+		440ACC821AF85A5500A09136 /* SCMacroDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCMacroDefines.h; sourceTree = "<group>"; };
+		440ACC831AF85A5500A09136 /* SCUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCUtility.h; sourceTree = "<group>"; };
+		440ACC891AF85AA100A09136 /* DDASLLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDASLLogger.h; sourceTree = "<group>"; };
+		440ACC8A1AF85AA100A09136 /* DDASLLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDASLLogger.m; sourceTree = "<group>"; };
+		440ACC8B1AF85AA100A09136 /* DDFileLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDFileLogger.h; sourceTree = "<group>"; };
+		440ACC8C1AF85AA100A09136 /* DDFileLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDFileLogger.m; sourceTree = "<group>"; };
+		440ACC8D1AF85AA100A09136 /* DDLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDLog.h; sourceTree = "<group>"; };
+		440ACC8E1AF85AA100A09136 /* DDLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDLog.m; sourceTree = "<group>"; };
+		440ACC8F1AF85AA100A09136 /* DDTTYLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDTTYLogger.h; sourceTree = "<group>"; };
+		440ACC901AF85AA100A09136 /* DDTTYLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDTTYLogger.m; sourceTree = "<group>"; };
+		440ACC9B1AF85C0900A09136 /* UncaughtExceptionHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UncaughtExceptionHandler.h; sourceTree = "<group>"; };
+		440ACC9C1AF85C0900A09136 /* UncaughtExceptionHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UncaughtExceptionHandler.m; sourceTree = "<group>"; };
+		440ACC9E1AF85C0900A09136 /* IPAddress.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = IPAddress.c; sourceTree = "<group>"; };
+		440ACC9F1AF85C0900A09136 /* IPAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPAddress.h; sourceTree = "<group>"; };
+		440ACCA01AF85C0900A09136 /* NetWorkUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetWorkUtils.h; sourceTree = "<group>"; };
+		440ACCA11AF85C0900A09136 /* NetWorkUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetWorkUtils.m; sourceTree = "<group>"; };
+		440ACCA21AF85C0900A09136 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		440ACCA31AF85C0900A09136 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		440ACCA51AF85C0900A09136 /* SCLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCLog.h; sourceTree = "<group>"; };
+		440ACCA61AF85C0900A09136 /* SCLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCLog.m; sourceTree = "<group>"; };
+		440ACCB11AF85D2100A09136 /* SCUtility-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SCUtility-Prefix.pch"; sourceTree = "<group>"; };
+		440ACCB81AF8680B00A09136 /* NSObject+SCBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SCBlock.h"; sourceTree = "<group>"; };
+		440ACCB91AF8680B00A09136 /* NSObject+SCBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SCBlock.m"; sourceTree = "<group>"; };
+		440ACCBA1AF8680B00A09136 /* NSDate+SCExtend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+SCExtend.h"; sourceTree = "<group>"; };
+		440ACCBB1AF8680B00A09136 /* NSDate+SCExtend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+SCExtend.m"; sourceTree = "<group>"; };
+		440ACCC01AF8683200A09136 /* UIView+SCExtend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SCExtend.h"; sourceTree = "<group>"; };
+		440ACCC11AF8683200A09136 /* UIView+SCExtend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SCExtend.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +107,7 @@
 		440ACC591AF8596E00A09136 = {
 			isa = PBXGroup;
 			children = (
+				440ACC7F1AF85A5500A09136 /* Classes */,
 				440ACC651AF8596E00A09136 /* SCUtility */,
 				440ACC721AF8596E00A09136 /* SCUtilityTests */,
 				440ACC641AF8596E00A09136 /* Products */,
@@ -71,7 +126,7 @@
 		440ACC651AF8596E00A09136 /* SCUtility */ = {
 			isa = PBXGroup;
 			children = (
-				440ACC681AF8596E00A09136 /* SCUtility.h */,
+				440ACCB11AF85D2100A09136 /* SCUtility-Prefix.pch */,
 				440ACC661AF8596E00A09136 /* Supporting Files */,
 			);
 			path = SCUtility;
@@ -102,6 +157,106 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		440ACC7F1AF85A5500A09136 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				440ACC801AF85A5500A09136 /* Header */,
+				440ACCB31AF85E2300A09136 /* Categories */,
+				440ACC991AF85C0900A09136 /* Utility */,
+				440ACC871AF85AA100A09136 /* Vender */,
+			);
+			name = Classes;
+			path = Pod/Classes;
+			sourceTree = "<group>";
+		};
+		440ACC801AF85A5500A09136 /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				440ACC811AF85A5500A09136 /* SCCategory.h */,
+				440ACC821AF85A5500A09136 /* SCMacroDefines.h */,
+				440ACC831AF85A5500A09136 /* SCUtility.h */,
+			);
+			path = Header;
+			sourceTree = "<group>";
+		};
+		440ACC871AF85AA100A09136 /* Vender */ = {
+			isa = PBXGroup;
+			children = (
+				440ACC881AF85AA100A09136 /* DDLog */,
+			);
+			path = Vender;
+			sourceTree = "<group>";
+		};
+		440ACC881AF85AA100A09136 /* DDLog */ = {
+			isa = PBXGroup;
+			children = (
+				440ACC891AF85AA100A09136 /* DDASLLogger.h */,
+				440ACC8A1AF85AA100A09136 /* DDASLLogger.m */,
+				440ACC8B1AF85AA100A09136 /* DDFileLogger.h */,
+				440ACC8C1AF85AA100A09136 /* DDFileLogger.m */,
+				440ACC8D1AF85AA100A09136 /* DDLog.h */,
+				440ACC8E1AF85AA100A09136 /* DDLog.m */,
+				440ACC8F1AF85AA100A09136 /* DDTTYLogger.h */,
+				440ACC901AF85AA100A09136 /* DDTTYLogger.m */,
+			);
+			path = DDLog;
+			sourceTree = "<group>";
+		};
+		440ACC991AF85C0900A09136 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				440ACC9A1AF85C0900A09136 /* ExceptionHandler */,
+				440ACC9D1AF85C0900A09136 /* Network */,
+				440ACCA41AF85C0900A09136 /* SCLog */,
+			);
+			name = Utility;
+			path = Pod/Classes/Utility;
+			sourceTree = SOURCE_ROOT;
+		};
+		440ACC9A1AF85C0900A09136 /* ExceptionHandler */ = {
+			isa = PBXGroup;
+			children = (
+				440ACC9B1AF85C0900A09136 /* UncaughtExceptionHandler.h */,
+				440ACC9C1AF85C0900A09136 /* UncaughtExceptionHandler.m */,
+			);
+			path = ExceptionHandler;
+			sourceTree = "<group>";
+		};
+		440ACC9D1AF85C0900A09136 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				440ACC9E1AF85C0900A09136 /* IPAddress.c */,
+				440ACC9F1AF85C0900A09136 /* IPAddress.h */,
+				440ACCA01AF85C0900A09136 /* NetWorkUtils.h */,
+				440ACCA11AF85C0900A09136 /* NetWorkUtils.m */,
+				440ACCA21AF85C0900A09136 /* Reachability.h */,
+				440ACCA31AF85C0900A09136 /* Reachability.m */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		440ACCA41AF85C0900A09136 /* SCLog */ = {
+			isa = PBXGroup;
+			children = (
+				440ACCA51AF85C0900A09136 /* SCLog.h */,
+				440ACCA61AF85C0900A09136 /* SCLog.m */,
+			);
+			path = SCLog;
+			sourceTree = "<group>";
+		};
+		440ACCB31AF85E2300A09136 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				440ACCC01AF8683200A09136 /* UIView+SCExtend.h */,
+				440ACCC11AF8683200A09136 /* UIView+SCExtend.m */,
+				440ACCB81AF8680B00A09136 /* NSObject+SCBlock.h */,
+				440ACCB91AF8680B00A09136 /* NSObject+SCBlock.m */,
+				440ACCBA1AF8680B00A09136 /* NSDate+SCExtend.h */,
+				440ACCBB1AF8680B00A09136 /* NSDate+SCExtend.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -109,7 +264,22 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				440ACC691AF8596E00A09136 /* SCUtility.h in Headers */,
+				440ACC931AF85AA100A09136 /* DDFileLogger.h in Headers */,
+				440ACC841AF85A5500A09136 /* SCCategory.h in Headers */,
+				440ACC851AF85A5500A09136 /* SCMacroDefines.h in Headers */,
+				440ACC971AF85AA100A09136 /* DDTTYLogger.h in Headers */,
+				440ACCA71AF85C0900A09136 /* UncaughtExceptionHandler.h in Headers */,
+				440ACCAB1AF85C0900A09136 /* NetWorkUtils.h in Headers */,
+				440ACCAD1AF85C0900A09136 /* Reachability.h in Headers */,
+				440ACC861AF85A5500A09136 /* SCUtility.h in Headers */,
+				440ACC911AF85AA100A09136 /* DDASLLogger.h in Headers */,
+				440ACCC21AF8683200A09136 /* UIView+SCExtend.h in Headers */,
+				440ACCBC1AF8680B00A09136 /* NSObject+SCBlock.h in Headers */,
+				440ACCAF1AF85C0900A09136 /* SCLog.h in Headers */,
+				440ACCB21AF85D2100A09136 /* SCUtility-Prefix.pch in Headers */,
+				440ACC951AF85AA100A09136 /* DDLog.h in Headers */,
+				440ACCAA1AF85C0900A09136 /* IPAddress.h in Headers */,
+				440ACCBE1AF8680B00A09136 /* NSDate+SCExtend.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,6 +379,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				440ACCB01AF85C0900A09136 /* SCLog.m in Sources */,
+				440ACC961AF85AA100A09136 /* DDLog.m in Sources */,
+				440ACCBD1AF8680B00A09136 /* NSObject+SCBlock.m in Sources */,
+				440ACCA81AF85C0900A09136 /* UncaughtExceptionHandler.m in Sources */,
+				440ACCAE1AF85C0900A09136 /* Reachability.m in Sources */,
+				440ACC981AF85AA100A09136 /* DDTTYLogger.m in Sources */,
+				440ACC921AF85AA100A09136 /* DDASLLogger.m in Sources */,
+				440ACC941AF85AA100A09136 /* DDFileLogger.m in Sources */,
+				440ACCBF1AF8680B00A09136 /* NSDate+SCExtend.m in Sources */,
+				440ACCA91AF85C0900A09136 /* IPAddress.c in Sources */,
+				440ACCC31AF8683200A09136 /* UIView+SCExtend.m in Sources */,
+				440ACCAC1AF85C0900A09136 /* NetWorkUtils.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,9 +508,11 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "SCUtility/SCUtility-Prefix.pch";
 				INFOPLIST_FILE = SCUtility/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -341,9 +525,11 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "SCUtility/SCUtility-Prefix.pch";
 				INFOPLIST_FILE = SCUtility/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
