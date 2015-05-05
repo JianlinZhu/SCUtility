@@ -10,7 +10,6 @@
 
 @interface NetWorkUtils : NSObject
 
-
 /**
  *  判断网络状态
  */

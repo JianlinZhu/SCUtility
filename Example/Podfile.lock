@@ -1,0 +1,14 @@
+PODS:
+  - SCUtility (0.1.1)
+
+DEPENDENCIES:
+  - SCUtility (from `../../SCUtility`)
+
+EXTERNAL SOURCES:
+  SCUtility:
+    :path: ../../SCUtility
+
+SPEC CHECKSUMS:
+  SCUtility: fe4ff3916c29a4798944966f30997c7437c010fa
+
+COCOAPODS: 0.35.0
