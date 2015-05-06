@@ -8,6 +8,7 @@
 
 #import "UIView+SCExtend.h"
 #import "SCMacroDefines.h"
+#import "UIScreen+Scale.h"
 
 @implementation UIView (SCExtend)
 
@@ -217,6 +218,54 @@
     self.layer.shadowPath    = [[UIBezierPath bezierPathWithRect:self.bounds] CGPath];
     
     return self;
+}
+
+- (UIImage *) screenshot
+{
+    CGFloat scale = [UIScreen screenScale];
+    
+    if(scale > 1.5) {
+        UIGraphicsBeginImageContextWithOptions(self.frame.size, NO, scale);
+    } else {
+        UIGraphicsBeginImageContext(self.frame.size);
+    }
+    
+    if (isIOS7) {
+        [self drawViewHierarchyInRect:self.frame afterScreenUpdates:NO];
+    }
+    else {
+        [self.layer renderInContext:UIGraphicsGetCurrentContext()];
+    }
+    
+    UIImage *screenshot = UIGraphicsGetImageFromCurrentImageContext();
+    UIGraphicsEndImageContext();
+    return screenshot;
+}
+
+- (UIImage *) screenshotWithOffset:(CGFloat)deltaY
+{
+    UIGraphicsBeginImageContextWithOptions(self.frame.size, NO, 0.0);
+    CGContextRef ctx = UIGraphicsGetCurrentContext();
+    //  KEY: need to translate the context down to the current visible portion of the tablview
+    CGContextTranslateCTM(ctx, 0, deltaY);
+    [self.layer renderInContext:ctx];
+    UIImage *screenshot = UIGraphicsGetImageFromCurrentImageContext();
+    UIGraphicsEndImageContext();
+    
+    return screenshot;
+}
+
+- (UIImage *) snapShopImage
+{
+    CGSize screenShotSize = self.bounds.size;
+    UIImage *img;
+    UIGraphicsBeginImageContext(screenShotSize);
+    CGContextRef ctx = UIGraphicsGetCurrentContext();
+    [self drawLayer:self.layer inContext:ctx];
+    img = UIGraphicsGetImageFromCurrentImageContext();
+    UIGraphicsEndImageContext();
+    
+    return img;
 }
 
 @end

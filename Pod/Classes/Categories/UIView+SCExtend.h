@@ -58,4 +58,18 @@
 
 - (id) addBottomShadow;
 
+/*
+ Description - Returns a UIImage object of a "screenshot" of the view.
+ */
+- (UIImage *)screenshot;
+
+- (UIImage *)screenshotWithOffset:(CGFloat)deltaY;
+
+/*!
+ *	@brief	create a snapshop of current view
+ *
+ *	@return	the snapshop image
+ */
+- (UIImage *)snapShopImage;
+
 @end

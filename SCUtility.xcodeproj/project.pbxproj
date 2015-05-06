@@ -37,6 +37,24 @@
 		440ACCBF1AF8680B00A09136 /* NSDate+SCExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = 440ACCBB1AF8680B00A09136 /* NSDate+SCExtend.m */; };
 		440ACCC21AF8683200A09136 /* UIView+SCExtend.h in Headers */ = {isa = PBXBuildFile; fileRef = 440ACCC01AF8683200A09136 /* UIView+SCExtend.h */; };
 		440ACCC31AF8683200A09136 /* UIView+SCExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = 440ACCC11AF8683200A09136 /* UIView+SCExtend.m */; };
+		44CE23CA1AF8C50A005FFE8B /* UIButton+SCExtend.h in Headers */ = {isa = PBXBuildFile; fileRef = 44CE23C81AF8C50A005FFE8B /* UIButton+SCExtend.h */; };
+		44CE23CB1AF8C50A005FFE8B /* UIButton+SCExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = 44CE23C91AF8C50A005FFE8B /* UIButton+SCExtend.m */; };
+		44CE23CE1AF8C64E005FFE8B /* UIScreen+Scale.h in Headers */ = {isa = PBXBuildFile; fileRef = 44CE23CC1AF8C64E005FFE8B /* UIScreen+Scale.h */; };
+		44CE23CF1AF8C64E005FFE8B /* UIScreen+Scale.m in Sources */ = {isa = PBXBuildFile; fileRef = 44CE23CD1AF8C64E005FFE8B /* UIScreen+Scale.m */; };
+		44FC7A431AF9AF0D00BBBD0D /* NSString+SCExtend.h in Headers */ = {isa = PBXBuildFile; fileRef = 44FC7A411AF9AF0D00BBBD0D /* NSString+SCExtend.h */; };
+		44FC7A441AF9AF0D00BBBD0D /* NSString+SCExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = 44FC7A421AF9AF0D00BBBD0D /* NSString+SCExtend.m */; };
+		44FC7A471AF9B21400BBBD0D /* NSNumber+SCExtend.h in Headers */ = {isa = PBXBuildFile; fileRef = 44FC7A451AF9B21400BBBD0D /* NSNumber+SCExtend.h */; };
+		44FC7A481AF9B21400BBBD0D /* NSNumber+SCExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = 44FC7A461AF9B21400BBBD0D /* NSNumber+SCExtend.m */; };
+		44FC7A4B1AF9B27E00BBBD0D /* UIImage+SCExtend.h in Headers */ = {isa = PBXBuildFile; fileRef = 44FC7A491AF9B27E00BBBD0D /* UIImage+SCExtend.h */; };
+		44FC7A4C1AF9B27E00BBBD0D /* UIImage+SCExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = 44FC7A4A1AF9B27E00BBBD0D /* UIImage+SCExtend.m */; };
+		44FC7A511AF9B36900BBBD0D /* NSDictionary+SCParam.h in Headers */ = {isa = PBXBuildFile; fileRef = 44FC7A4D1AF9B36900BBBD0D /* NSDictionary+SCParam.h */; };
+		44FC7A521AF9B36900BBBD0D /* NSDictionary+SCParam.m in Sources */ = {isa = PBXBuildFile; fileRef = 44FC7A4E1AF9B36900BBBD0D /* NSDictionary+SCParam.m */; };
+		44FC7A531AF9B36900BBBD0D /* NSMutableDictionary+SCParam.h in Headers */ = {isa = PBXBuildFile; fileRef = 44FC7A4F1AF9B36900BBBD0D /* NSMutableDictionary+SCParam.h */; };
+		44FC7A541AF9B36900BBBD0D /* NSMutableDictionary+SCParam.m in Sources */ = {isa = PBXBuildFile; fileRef = 44FC7A501AF9B36900BBBD0D /* NSMutableDictionary+SCParam.m */; };
+		44FC7A591AF9B3D200BBBD0D /* UIColor+SCExtend.h in Headers */ = {isa = PBXBuildFile; fileRef = 44FC7A551AF9B3D200BBBD0D /* UIColor+SCExtend.h */; };
+		44FC7A5A1AF9B3D200BBBD0D /* UIColor+SCExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = 44FC7A561AF9B3D200BBBD0D /* UIColor+SCExtend.m */; };
+		44FC7A5F1AF9B42300BBBD0D /* UIDevice+SCExtend.h in Headers */ = {isa = PBXBuildFile; fileRef = 44FC7A5D1AF9B42300BBBD0D /* UIDevice+SCExtend.h */; };
+		44FC7A601AF9B42300BBBD0D /* UIDevice+SCExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = 44FC7A5E1AF9B42300BBBD0D /* UIDevice+SCExtend.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +101,24 @@
 		440ACCBB1AF8680B00A09136 /* NSDate+SCExtend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+SCExtend.m"; sourceTree = "<group>"; };
 		440ACCC01AF8683200A09136 /* UIView+SCExtend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SCExtend.h"; sourceTree = "<group>"; };
 		440ACCC11AF8683200A09136 /* UIView+SCExtend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SCExtend.m"; sourceTree = "<group>"; };
+		44CE23C81AF8C50A005FFE8B /* UIButton+SCExtend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+SCExtend.h"; sourceTree = "<group>"; };
+		44CE23C91AF8C50A005FFE8B /* UIButton+SCExtend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+SCExtend.m"; sourceTree = "<group>"; };
+		44CE23CC1AF8C64E005FFE8B /* UIScreen+Scale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScreen+Scale.h"; sourceTree = "<group>"; };
+		44CE23CD1AF8C64E005FFE8B /* UIScreen+Scale.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScreen+Scale.m"; sourceTree = "<group>"; };
+		44FC7A411AF9AF0D00BBBD0D /* NSString+SCExtend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SCExtend.h"; sourceTree = "<group>"; };
+		44FC7A421AF9AF0D00BBBD0D /* NSString+SCExtend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SCExtend.m"; sourceTree = "<group>"; };
+		44FC7A451AF9B21400BBBD0D /* NSNumber+SCExtend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+SCExtend.h"; sourceTree = "<group>"; };
+		44FC7A461AF9B21400BBBD0D /* NSNumber+SCExtend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+SCExtend.m"; sourceTree = "<group>"; };
+		44FC7A491AF9B27E00BBBD0D /* UIImage+SCExtend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+SCExtend.h"; sourceTree = "<group>"; };
+		44FC7A4A1AF9B27E00BBBD0D /* UIImage+SCExtend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+SCExtend.m"; sourceTree = "<group>"; };
+		44FC7A4D1AF9B36900BBBD0D /* NSDictionary+SCParam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+SCParam.h"; sourceTree = "<group>"; };
+		44FC7A4E1AF9B36900BBBD0D /* NSDictionary+SCParam.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+SCParam.m"; sourceTree = "<group>"; };
+		44FC7A4F1AF9B36900BBBD0D /* NSMutableDictionary+SCParam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+SCParam.h"; sourceTree = "<group>"; };
+		44FC7A501AF9B36900BBBD0D /* NSMutableDictionary+SCParam.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+SCParam.m"; sourceTree = "<group>"; };
+		44FC7A551AF9B3D200BBBD0D /* UIColor+SCExtend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+SCExtend.h"; sourceTree = "<group>"; };
+		44FC7A561AF9B3D200BBBD0D /* UIColor+SCExtend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+SCExtend.m"; sourceTree = "<group>"; };
+		44FC7A5D1AF9B42300BBBD0D /* UIDevice+SCExtend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+SCExtend.h"; sourceTree = "<group>"; };
+		44FC7A5E1AF9B42300BBBD0D /* UIDevice+SCExtend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+SCExtend.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -251,8 +287,26 @@
 				440ACCC11AF8683200A09136 /* UIView+SCExtend.m */,
 				440ACCB81AF8680B00A09136 /* NSObject+SCBlock.h */,
 				440ACCB91AF8680B00A09136 /* NSObject+SCBlock.m */,
+				44FC7A411AF9AF0D00BBBD0D /* NSString+SCExtend.h */,
+				44FC7A421AF9AF0D00BBBD0D /* NSString+SCExtend.m */,
+				44FC7A451AF9B21400BBBD0D /* NSNumber+SCExtend.h */,
+				44FC7A461AF9B21400BBBD0D /* NSNumber+SCExtend.m */,
 				440ACCBA1AF8680B00A09136 /* NSDate+SCExtend.h */,
 				440ACCBB1AF8680B00A09136 /* NSDate+SCExtend.m */,
+				44CE23C81AF8C50A005FFE8B /* UIButton+SCExtend.h */,
+				44CE23C91AF8C50A005FFE8B /* UIButton+SCExtend.m */,
+				44CE23CC1AF8C64E005FFE8B /* UIScreen+Scale.h */,
+				44CE23CD1AF8C64E005FFE8B /* UIScreen+Scale.m */,
+				44FC7A491AF9B27E00BBBD0D /* UIImage+SCExtend.h */,
+				44FC7A4A1AF9B27E00BBBD0D /* UIImage+SCExtend.m */,
+				44FC7A4D1AF9B36900BBBD0D /* NSDictionary+SCParam.h */,
+				44FC7A4E1AF9B36900BBBD0D /* NSDictionary+SCParam.m */,
+				44FC7A4F1AF9B36900BBBD0D /* NSMutableDictionary+SCParam.h */,
+				44FC7A501AF9B36900BBBD0D /* NSMutableDictionary+SCParam.m */,
+				44FC7A551AF9B3D200BBBD0D /* UIColor+SCExtend.h */,
+				44FC7A561AF9B3D200BBBD0D /* UIColor+SCExtend.m */,
+				44FC7A5D1AF9B42300BBBD0D /* UIDevice+SCExtend.h */,
+				44FC7A5E1AF9B42300BBBD0D /* UIDevice+SCExtend.m */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
@@ -265,18 +319,27 @@
 			buildActionMask = 2147483647;
 			files = (
 				440ACC931AF85AA100A09136 /* DDFileLogger.h in Headers */,
+				44FC7A531AF9B36900BBBD0D /* NSMutableDictionary+SCParam.h in Headers */,
 				440ACC841AF85A5500A09136 /* SCCategory.h in Headers */,
 				440ACC851AF85A5500A09136 /* SCMacroDefines.h in Headers */,
 				440ACC971AF85AA100A09136 /* DDTTYLogger.h in Headers */,
 				440ACCA71AF85C0900A09136 /* UncaughtExceptionHandler.h in Headers */,
+				44FC7A591AF9B3D200BBBD0D /* UIColor+SCExtend.h in Headers */,
 				440ACCAB1AF85C0900A09136 /* NetWorkUtils.h in Headers */,
+				44CE23CA1AF8C50A005FFE8B /* UIButton+SCExtend.h in Headers */,
+				44CE23CE1AF8C64E005FFE8B /* UIScreen+Scale.h in Headers */,
 				440ACCAD1AF85C0900A09136 /* Reachability.h in Headers */,
 				440ACC861AF85A5500A09136 /* SCUtility.h in Headers */,
 				440ACC911AF85AA100A09136 /* DDASLLogger.h in Headers */,
 				440ACCC21AF8683200A09136 /* UIView+SCExtend.h in Headers */,
+				44FC7A4B1AF9B27E00BBBD0D /* UIImage+SCExtend.h in Headers */,
 				440ACCBC1AF8680B00A09136 /* NSObject+SCBlock.h in Headers */,
 				440ACCAF1AF85C0900A09136 /* SCLog.h in Headers */,
+				44FC7A511AF9B36900BBBD0D /* NSDictionary+SCParam.h in Headers */,
+				44FC7A5F1AF9B42300BBBD0D /* UIDevice+SCExtend.h in Headers */,
 				440ACCB21AF85D2100A09136 /* SCUtility-Prefix.pch in Headers */,
+				44FC7A431AF9AF0D00BBBD0D /* NSString+SCExtend.h in Headers */,
+				44FC7A471AF9B21400BBBD0D /* NSNumber+SCExtend.h in Headers */,
 				440ACC951AF85AA100A09136 /* DDLog.h in Headers */,
 				440ACCAA1AF85C0900A09136 /* IPAddress.h in Headers */,
 				440ACCBE1AF8680B00A09136 /* NSDate+SCExtend.h in Headers */,
@@ -380,6 +443,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				440ACCB01AF85C0900A09136 /* SCLog.m in Sources */,
+				44FC7A481AF9B21400BBBD0D /* NSNumber+SCExtend.m in Sources */,
 				440ACC961AF85AA100A09136 /* DDLog.m in Sources */,
 				440ACCBD1AF8680B00A09136 /* NSObject+SCBlock.m in Sources */,
 				440ACCA81AF85C0900A09136 /* UncaughtExceptionHandler.m in Sources */,
@@ -387,10 +451,18 @@
 				440ACC981AF85AA100A09136 /* DDTTYLogger.m in Sources */,
 				440ACC921AF85AA100A09136 /* DDASLLogger.m in Sources */,
 				440ACC941AF85AA100A09136 /* DDFileLogger.m in Sources */,
+				44FC7A441AF9AF0D00BBBD0D /* NSString+SCExtend.m in Sources */,
 				440ACCBF1AF8680B00A09136 /* NSDate+SCExtend.m in Sources */,
+				44FC7A5A1AF9B3D200BBBD0D /* UIColor+SCExtend.m in Sources */,
 				440ACCA91AF85C0900A09136 /* IPAddress.c in Sources */,
+				44FC7A4C1AF9B27E00BBBD0D /* UIImage+SCExtend.m in Sources */,
+				44CE23CF1AF8C64E005FFE8B /* UIScreen+Scale.m in Sources */,
 				440ACCC31AF8683200A09136 /* UIView+SCExtend.m in Sources */,
+				44CE23CB1AF8C50A005FFE8B /* UIButton+SCExtend.m in Sources */,
+				44FC7A521AF9B36900BBBD0D /* NSDictionary+SCParam.m in Sources */,
+				44FC7A601AF9B42300BBBD0D /* UIDevice+SCExtend.m in Sources */,
 				440ACCAC1AF85C0900A09136 /* NetWorkUtils.m in Sources */,
+				44FC7A541AF9B36900BBBD0D /* NSMutableDictionary+SCParam.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -584,6 +656,7 @@
 				440ACC7B1AF8596E00A09136 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		440ACC7C1AF8596E00A09136 /* Build configuration list for PBXNativeTarget "SCUtilityTests" */ = {
 			isa = XCConfigurationList;
@@ -592,6 +665,7 @@
 				440ACC7E1AF8596E00A09136 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

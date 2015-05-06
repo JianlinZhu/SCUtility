@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "SCUtility"
-  s.version          = "0.1.1"
+  s.version          = "1.0.0"
   s.summary          = "SCUtility pod test . "
   s.description      = <<-DESC
                        Testing Podspec of SCUtility
@@ -34,5 +34,6 @@ Pod::Spec.new do |s|
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   s.frameworks = 'UIKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'JSONKit'
+  s.dependency 'AFNetworking'
 end
