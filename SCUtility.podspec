@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "SCUtility"
-  s.version          = "1.0.3"
+  s.version          = "1.0.4"
   s.summary          = "SCUtility pod library"
   s.description      = <<-DESC
                        Update Podspec of SCUtility
@@ -26,7 +26,11 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true
-  non_arc_files = 'Pod/Utility/JSONKit/*.{h,m}'
+  
+  s.subspec 'no-arc' do |sp|
+    sp.source_files = 'Pod/Utility/JSONKit/JSONKit.{h,m}'
+    sp.requires_arc = false
+  end
 
   s.source_files = 'Pod/**/*.{h,m}'
   s.resource_bundles = {

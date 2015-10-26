@@ -1,0 +1,40 @@
+PODS:
+  - AFNetworking (2.6.1):
+    - AFNetworking/NSURLConnection (= 2.6.1)
+    - AFNetworking/NSURLSession (= 2.6.1)
+    - AFNetworking/Reachability (= 2.6.1)
+    - AFNetworking/Security (= 2.6.1)
+    - AFNetworking/Serialization (= 2.6.1)
+    - AFNetworking/UIKit (= 2.6.1)
+  - AFNetworking/NSURLConnection (2.6.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.6.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.6.1)
+  - AFNetworking/Security (2.6.1)
+  - AFNetworking/Serialization (2.6.1)
+  - AFNetworking/UIKit (2.6.1):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - SCUtility (1.0.3):
+    - AFNetworking
+    - SCUtility/no-arc (= 1.0.3)
+  - SCUtility/no-arc (1.0.3):
+    - AFNetworking
+
+DEPENDENCIES:
+  - SCUtility (from `../../SCUtility/SCUtility.podspec`)
+
+EXTERNAL SOURCES:
+  SCUtility:
+    :path: ../../SCUtility/SCUtility.podspec
+
+SPEC CHECKSUMS:
+  AFNetworking: 8e4e60500beb8bec644cf575beee72990a76d399
+  SCUtility: 37b53a78587bc6bf1f9c4d0e6f6d040ba1f0b54c
+
+COCOAPODS: 0.38.2
