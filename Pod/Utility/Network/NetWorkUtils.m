@@ -13,7 +13,6 @@
 #include <net/if_dl.h>
 #include <arpa/inet.h>
 #include <ifaddrs.h>
-#import "IPAddress.h"
 #import <SystemConfiguration/CaptiveNetwork.h>
 
 @implementation NetWorkUtils
@@ -36,15 +35,6 @@
 }
 
 #pragma mark - IP Address
-
-// 使用IPAddress.c
-+ (NSString *) deviceIPAdress
-{
-    InitAddresses();
-    GetIPAddresses();
-    GetHWAddresses();
-    return [NSString stringWithFormat:@"%s",ip_names[1]];
-}
 
 + (NSString *) localIPAddress
 {

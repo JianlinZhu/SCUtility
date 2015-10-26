@@ -8,7 +8,6 @@
 
 #import "ViewController.h"
 #import "SCUtility.h"
-#import "QSRSA.h"
 
 @interface ViewController ()
 
@@ -85,31 +84,6 @@
     [publicKey appendString:@"\n-----END PUBLIC KEY-----"];
 
     
-    //Instance
-    QSRSA *qr = [[QSRSA alloc] init];
-    //Set Public key
-    [qr setPublicKey:publicKey];
-    
-//    NSString *encryptString = [[qr encryptDataWithPublicKey:plainData] base64EncodedString];
-//    NSLog(@"encryptString:%@", encryptString);
-    
-    //Decrypt With Public Key
-    NSData *nsdataFromBase64String = [[NSData alloc]
-                                      initWithBase64EncodedString:test options:0];
-    NSData *decryptData = [qr decryptDataWithPublicKey:nsdataFromBase64String];
-    
-    NSString *decryptString = [[NSString alloc] initWithData:decryptData encoding:NSUTF8StringEncoding];
-    NSLog(@"decryptString:%@", decryptString); //"the text is encrypt by server with private key"
-    
-//    NSString *base64Decoded = [test base64DecodedString];
-    
-    
-    /*RSA *rsa = [RSA shareInstance];
-    //decrypt
-    NSData *decryptData = [rsa RSA_DecryptUsingPublicKeyWithData:[test dataUsingEncoding:NSUTF8StringEncoding]];
-    NSString *originString = [[NSString alloc] initWithData:decryptData encoding:NSUTF8StringEncoding];*/
-    
-    NSLog(@"%@", [self rsaDecryptString:test]);
 }
 
 #pragma mark - Decrypt

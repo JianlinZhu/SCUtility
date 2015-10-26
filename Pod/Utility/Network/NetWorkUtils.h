@@ -27,9 +27,8 @@
 + (BOOL) Is3GEnabled;
 
 /**
- *  获取本地IP地址，两种方法
+ *  获取本地IP地址
  */
-+ (NSString *) deviceIPAdress;
 + (NSString *) localIPAddress;
 
 /**

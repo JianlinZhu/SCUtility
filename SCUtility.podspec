@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "SCUtility"
-  s.version          = "1.0.4"
+  s.version          = "1.0.5"
   s.summary          = "SCUtility pod library"
   s.description      = <<-DESC
                        Update Podspec of SCUtility
@@ -27,17 +27,16 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '7.0'
   s.requires_arc = true
   
+  s.source_files = 'Pod/**/*.{h,m}'
+
+  non_arc_files = 'Pod/Utility/JSONKit/JSONKit.{h,m}'
+  s.exclude_files = non_arc_files
   s.subspec 'no-arc' do |sp|
-    sp.source_files = 'Pod/Utility/JSONKit/JSONKit.{h,m}'
+    sp.source_files = non_arc_files
     sp.requires_arc = false
   end
 
-  s.source_files = 'Pod/**/*.{h,m}'
-  s.resource_bundles = {
-    'SCUtility' => ['Assets/*.png']
-  }
-
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  s.frameworks = 'UIKit'
+  # s.frameworks = 'UIKit'
   s.dependency 'AFNetworking'
 end

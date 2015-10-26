@@ -20,10 +20,10 @@ PODS:
   - AFNetworking/UIKit (2.6.1):
     - AFNetworking/NSURLConnection
     - AFNetworking/NSURLSession
-  - SCUtility (1.0.3):
+  - SCUtility (1.0.5):
     - AFNetworking
-    - SCUtility/no-arc (= 1.0.3)
-  - SCUtility/no-arc (1.0.3):
+    - SCUtility/no-arc (= 1.0.5)
+  - SCUtility/no-arc (1.0.5):
     - AFNetworking
 
 DEPENDENCIES:
@@ -35,6 +35,6 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: 8e4e60500beb8bec644cf575beee72990a76d399
-  SCUtility: 37b53a78587bc6bf1f9c4d0e6f6d040ba1f0b54c
+  SCUtility: 9a227ab9a38cf9bb90310ae6cded99815d0dbbe8
 
 COCOAPODS: 0.38.2

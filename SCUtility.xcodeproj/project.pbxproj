@@ -35,13 +35,10 @@
 		4401C9BE1BDDD7E8009032D4 /* UIView+SCExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = 4401C9851BDDD7E8009032D4 /* UIView+SCExtend.m */; settings = {ASSET_TAGS = (); }; };
 		4401C9BF1BDDD7E8009032D4 /* SCCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = 4401C9871BDDD7E8009032D4 /* SCCategory.h */; settings = {ASSET_TAGS = (); }; };
 		4401C9C01BDDD7E8009032D4 /* SCMacroDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 4401C9881BDDD7E8009032D4 /* SCMacroDefines.h */; settings = {ASSET_TAGS = (); }; };
-		4401C9C11BDDD7E8009032D4 /* SCUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = 4401C9891BDDD7E8009032D4 /* SCUtility.h */; settings = {ASSET_TAGS = (); }; };
 		4401C9C21BDDD7E8009032D4 /* UncaughtExceptionHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 4401C98C1BDDD7E8009032D4 /* UncaughtExceptionHandler.h */; settings = {ASSET_TAGS = (); }; };
 		4401C9C31BDDD7E8009032D4 /* UncaughtExceptionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 4401C98D1BDDD7E8009032D4 /* UncaughtExceptionHandler.m */; settings = {ASSET_TAGS = (); }; };
 		4401C9C41BDDD7E8009032D4 /* JSONKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 4401C98F1BDDD7E8009032D4 /* JSONKit.h */; settings = {ASSET_TAGS = (); }; };
-		4401C9C51BDDD7E8009032D4 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 4401C9901BDDD7E8009032D4 /* JSONKit.m */; settings = {ASSET_TAGS = (); }; };
-		4401C9C61BDDD7E8009032D4 /* IPAddress.c in Sources */ = {isa = PBXBuildFile; fileRef = 4401C9921BDDD7E8009032D4 /* IPAddress.c */; settings = {ASSET_TAGS = (); }; };
-		4401C9C71BDDD7E8009032D4 /* IPAddress.h in Headers */ = {isa = PBXBuildFile; fileRef = 4401C9931BDDD7E8009032D4 /* IPAddress.h */; settings = {ASSET_TAGS = (); }; };
+		4401C9C51BDDD7E8009032D4 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 4401C9901BDDD7E8009032D4 /* JSONKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		4401C9C81BDDD7E8009032D4 /* NetWorkUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 4401C9941BDDD7E8009032D4 /* NetWorkUtils.h */; settings = {ASSET_TAGS = (); }; };
 		4401C9C91BDDD7E8009032D4 /* NetWorkUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 4401C9951BDDD7E8009032D4 /* NetWorkUtils.m */; settings = {ASSET_TAGS = (); }; };
 		4401C9CA1BDDD7E8009032D4 /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 4401C9961BDDD7E8009032D4 /* Reachability.h */; settings = {ASSET_TAGS = (); }; };
@@ -56,20 +53,9 @@
 		4401C9D31BDDD7E8009032D4 /* DDLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 4401C9A21BDDD7E8009032D4 /* DDLog.m */; settings = {ASSET_TAGS = (); }; };
 		4401C9D41BDDD7E8009032D4 /* DDTTYLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 4401C9A31BDDD7E8009032D4 /* DDTTYLogger.h */; settings = {ASSET_TAGS = (); }; };
 		4401C9D51BDDD7E8009032D4 /* DDTTYLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 4401C9A41BDDD7E8009032D4 /* DDTTYLogger.m */; settings = {ASSET_TAGS = (); }; };
-		440ACC6F1AF8596E00A09136 /* SCUtility.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 440ACC631AF8596E00A09136 /* SCUtility.framework */; };
-		440ACC761AF8596E00A09136 /* SCUtilityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 440ACC751AF8596E00A09136 /* SCUtilityTests.m */; };
+		4401C9D71BDE132B009032D4 /* SCUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = 4401C9D61BDE132B009032D4 /* SCUtility.h */; settings = {ASSET_TAGS = (); }; };
 		440ACCB21AF85D2100A09136 /* SCUtility-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 440ACCB11AF85D2100A09136 /* SCUtility-Prefix.pch */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		440ACC701AF8596E00A09136 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 440ACC5A1AF8596E00A09136 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 440ACC621AF8596E00A09136;
-			remoteInfo = SCUtility;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		4401C96C1BDDD7E8009032D4 /* NSData+SCExtend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+SCExtend.h"; sourceTree = "<group>"; };
@@ -100,13 +86,10 @@
 		4401C9851BDDD7E8009032D4 /* UIView+SCExtend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SCExtend.m"; sourceTree = "<group>"; };
 		4401C9871BDDD7E8009032D4 /* SCCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCCategory.h; sourceTree = "<group>"; };
 		4401C9881BDDD7E8009032D4 /* SCMacroDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCMacroDefines.h; sourceTree = "<group>"; };
-		4401C9891BDDD7E8009032D4 /* SCUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SCUtility.h; path = Pod/SCUtility.h; sourceTree = SOURCE_ROOT; };
 		4401C98C1BDDD7E8009032D4 /* UncaughtExceptionHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UncaughtExceptionHandler.h; sourceTree = "<group>"; };
 		4401C98D1BDDD7E8009032D4 /* UncaughtExceptionHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UncaughtExceptionHandler.m; sourceTree = "<group>"; };
 		4401C98F1BDDD7E8009032D4 /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
 		4401C9901BDDD7E8009032D4 /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
-		4401C9921BDDD7E8009032D4 /* IPAddress.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = IPAddress.c; sourceTree = "<group>"; };
-		4401C9931BDDD7E8009032D4 /* IPAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPAddress.h; sourceTree = "<group>"; };
 		4401C9941BDDD7E8009032D4 /* NetWorkUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetWorkUtils.h; sourceTree = "<group>"; };
 		4401C9951BDDD7E8009032D4 /* NetWorkUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetWorkUtils.m; sourceTree = "<group>"; };
 		4401C9961BDDD7E8009032D4 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
@@ -121,11 +104,9 @@
 		4401C9A21BDDD7E8009032D4 /* DDLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDLog.m; sourceTree = "<group>"; };
 		4401C9A31BDDD7E8009032D4 /* DDTTYLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDTTYLogger.h; sourceTree = "<group>"; };
 		4401C9A41BDDD7E8009032D4 /* DDTTYLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDTTYLogger.m; sourceTree = "<group>"; };
+		4401C9D61BDE132B009032D4 /* SCUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCUtility.h; sourceTree = "<group>"; };
 		440ACC631AF8596E00A09136 /* SCUtility.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SCUtility.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		440ACC671AF8596E00A09136 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		440ACC6E1AF8596E00A09136 /* SCUtilityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SCUtilityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		440ACC741AF8596E00A09136 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		440ACC751AF8596E00A09136 /* SCUtilityTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCUtilityTests.m; sourceTree = "<group>"; };
 		440ACCB11AF85D2100A09136 /* SCUtility-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SCUtility-Prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -134,14 +115,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		440ACC6B1AF8596E00A09136 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				440ACC6F1AF8596E00A09136 /* SCUtility.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -185,6 +158,7 @@
 		4401C9861BDDD7E8009032D4 /* Header */ = {
 			isa = PBXGroup;
 			children = (
+				4401C9D61BDE132B009032D4 /* SCUtility.h */,
 				4401C9871BDDD7E8009032D4 /* SCCategory.h */,
 				4401C9881BDDD7E8009032D4 /* SCMacroDefines.h */,
 			);
@@ -225,8 +199,6 @@
 		4401C9911BDDD7E8009032D4 /* Network */ = {
 			isa = PBXGroup;
 			children = (
-				4401C9921BDDD7E8009032D4 /* IPAddress.c */,
-				4401C9931BDDD7E8009032D4 /* IPAddress.h */,
 				4401C9941BDDD7E8009032D4 /* NetWorkUtils.h */,
 				4401C9951BDDD7E8009032D4 /* NetWorkUtils.m */,
 				4401C9961BDDD7E8009032D4 /* Reachability.h */,
@@ -273,7 +245,6 @@
 			children = (
 				440ACC7F1AF85A5500A09136 /* Classes */,
 				440ACC651AF8596E00A09136 /* SCUtility */,
-				440ACC721AF8596E00A09136 /* SCUtilityTests */,
 				440ACC641AF8596E00A09136 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -282,7 +253,6 @@
 			isa = PBXGroup;
 			children = (
 				440ACC631AF8596E00A09136 /* SCUtility.framework */,
-				440ACC6E1AF8596E00A09136 /* SCUtilityTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -304,27 +274,9 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		440ACC721AF8596E00A09136 /* SCUtilityTests */ = {
-			isa = PBXGroup;
-			children = (
-				440ACC751AF8596E00A09136 /* SCUtilityTests.m */,
-				440ACC731AF8596E00A09136 /* Supporting Files */,
-			);
-			path = SCUtilityTests;
-			sourceTree = "<group>";
-		};
-		440ACC731AF8596E00A09136 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				440ACC741AF8596E00A09136 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 		440ACC7F1AF85A5500A09136 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				4401C9891BDDD7E8009032D4 /* SCUtility.h */,
 				4401C9861BDDD7E8009032D4 /* Header */,
 				4401C96B1BDDD7E8009032D4 /* Categories */,
 				4401C98A1BDDD7E8009032D4 /* Utility */,
@@ -349,7 +301,6 @@
 				4401C9B31BDDD7E8009032D4 /* UIButton+SCExtend.h in Headers */,
 				4401C9D41BDDD7E8009032D4 /* DDTTYLogger.h in Headers */,
 				440ACCB21AF85D2100A09136 /* SCUtility-Prefix.pch in Headers */,
-				4401C9C11BDDD7E8009032D4 /* SCUtility.h in Headers */,
 				4401C9A91BDDD7E8009032D4 /* NSDictionary+SCParam.h in Headers */,
 				4401C9C81BDDD7E8009032D4 /* NetWorkUtils.h in Headers */,
 				4401C9B91BDDD7E8009032D4 /* UIImage+SCExtend.h in Headers */,
@@ -363,7 +314,7 @@
 				4401C9A51BDDD7E8009032D4 /* NSData+SCExtend.h in Headers */,
 				4401C9D01BDDD7E8009032D4 /* DDFileLogger.h in Headers */,
 				4401C9CA1BDDD7E8009032D4 /* Reachability.h in Headers */,
-				4401C9C71BDDD7E8009032D4 /* IPAddress.h in Headers */,
+				4401C9D71BDE132B009032D4 /* SCUtility.h in Headers */,
 				4401C9C41BDDD7E8009032D4 /* JSONKit.h in Headers */,
 				4401C9AD1BDDD7E8009032D4 /* NSNumber+SCExtend.h in Headers */,
 				4401C9A71BDDD7E8009032D4 /* NSDate+SCExtend.h in Headers */,
@@ -392,24 +343,6 @@
 			productReference = 440ACC631AF8596E00A09136 /* SCUtility.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		440ACC6D1AF8596E00A09136 /* SCUtilityTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 440ACC7C1AF8596E00A09136 /* Build configuration list for PBXNativeTarget "SCUtilityTests" */;
-			buildPhases = (
-				440ACC6A1AF8596E00A09136 /* Sources */,
-				440ACC6B1AF8596E00A09136 /* Frameworks */,
-				440ACC6C1AF8596E00A09136 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				440ACC711AF8596E00A09136 /* PBXTargetDependency */,
-			);
-			name = SCUtilityTests;
-			productName = SCUtilityTests;
-			productReference = 440ACC6E1AF8596E00A09136 /* SCUtilityTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -420,9 +353,6 @@
 				ORGANIZATIONNAME = iChint;
 				TargetAttributes = {
 					440ACC621AF8596E00A09136 = {
-						CreatedOnToolsVersion = 6.3.1;
-					};
-					440ACC6D1AF8596E00A09136 = {
 						CreatedOnToolsVersion = 6.3.1;
 					};
 				};
@@ -440,20 +370,12 @@
 			projectRoot = "";
 			targets = (
 				440ACC621AF8596E00A09136 /* SCUtility */,
-				440ACC6D1AF8596E00A09136 /* SCUtilityTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		440ACC611AF8596E00A09136 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		440ACC6C1AF8596E00A09136 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -481,7 +403,6 @@
 				4401C9D11BDDD7E8009032D4 /* DDFileLogger.m in Sources */,
 				4401C9AE1BDDD7E8009032D4 /* NSNumber+SCExtend.m in Sources */,
 				4401C9BC1BDDD7E8009032D4 /* UIScreen+Scale.m in Sources */,
-				4401C9C61BDDD7E8009032D4 /* IPAddress.c in Sources */,
 				4401C9AA1BDDD7E8009032D4 /* NSDictionary+SCParam.m in Sources */,
 				4401C9A61BDDD7E8009032D4 /* NSData+SCExtend.m in Sources */,
 				4401C9D31BDDD7E8009032D4 /* DDLog.m in Sources */,
@@ -493,23 +414,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		440ACC6A1AF8596E00A09136 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				440ACC761AF8596E00A09136 /* SCUtilityTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		440ACC711AF8596E00A09136 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 440ACC621AF8596E00A09136 /* SCUtility */;
-			targetProxy = 440ACC701AF8596E00A09136 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		440ACC771AF8596E00A09136 /* Debug */ = {
@@ -637,38 +542,6 @@
 			};
 			name = Release;
 		};
-		440ACC7D1AF8596E00A09136 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = SCUtilityTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ichint.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		440ACC7E1AF8596E00A09136 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = SCUtilityTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ichint.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -686,15 +559,6 @@
 			buildConfigurations = (
 				440ACC7A1AF8596E00A09136 /* Debug */,
 				440ACC7B1AF8596E00A09136 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		440ACC7C1AF8596E00A09136 /* Build configuration list for PBXNativeTarget "SCUtilityTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				440ACC7D1AF8596E00A09136 /* Debug */,
-				440ACC7E1AF8596E00A09136 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
