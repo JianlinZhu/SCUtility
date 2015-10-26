@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4401C9691BDDC9EA009032D4 /* JSONKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 4401C9671BDDC9EA009032D4 /* JSONKit.h */; settings = {ASSET_TAGS = (); }; };
+		4401C96A1BDDC9EA009032D4 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 4401C9681BDDC9EA009032D4 /* JSONKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		440ACC6F1AF8596E00A09136 /* SCUtility.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 440ACC631AF8596E00A09136 /* SCUtility.framework */; };
 		440ACC761AF8596E00A09136 /* SCUtilityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 440ACC751AF8596E00A09136 /* SCUtilityTests.m */; };
 		440ACC841AF85A5500A09136 /* SCCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = 440ACC811AF85A5500A09136 /* SCCategory.h */; };
@@ -70,6 +72,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4401C9671BDDC9EA009032D4 /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
+		4401C9681BDDC9EA009032D4 /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
 		440ACC631AF8596E00A09136 /* SCUtility.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SCUtility.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		440ACC671AF8596E00A09136 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		440ACC6E1AF8596E00A09136 /* SCUtilityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SCUtilityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -144,6 +148,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4401C9661BDDC9EA009032D4 /* JSONKit */ = {
+			isa = PBXGroup;
+			children = (
+				4401C9671BDDC9EA009032D4 /* JSONKit.h */,
+				4401C9681BDDC9EA009032D4 /* JSONKit.m */,
+			);
+			path = JSONKit;
+			sourceTree = "<group>";
+		};
 		440ACC591AF8596E00A09136 = {
 			isa = PBXGroup;
 			children = (
@@ -245,6 +258,7 @@
 		440ACC991AF85C0900A09136 /* Utility */ = {
 			isa = PBXGroup;
 			children = (
+				4401C9661BDDC9EA009032D4 /* JSONKit */,
 				440ACC9A1AF85C0900A09136 /* ExceptionHandler */,
 				440ACC9D1AF85C0900A09136 /* Network */,
 				440ACCA41AF85C0900A09136 /* SCLog */,
@@ -344,6 +358,7 @@
 				44F37C501B671266002AB22D /* NSData+SCExtend.h in Headers */,
 				44FC7A511AF9B36900BBBD0D /* NSDictionary+SCParam.h in Headers */,
 				44FC7A5F1AF9B42300BBBD0D /* UIDevice+SCExtend.h in Headers */,
+				4401C9691BDDC9EA009032D4 /* JSONKit.h in Headers */,
 				440ACCB21AF85D2100A09136 /* SCUtility-Prefix.pch in Headers */,
 				44FC7A431AF9AF0D00BBBD0D /* NSString+SCExtend.h in Headers */,
 				44FC7A471AF9B21400BBBD0D /* NSNumber+SCExtend.h in Headers */,
@@ -471,6 +486,7 @@
 				44FC7A601AF9B42300BBBD0D /* UIDevice+SCExtend.m in Sources */,
 				440ACCAC1AF85C0900A09136 /* NetWorkUtils.m in Sources */,
 				44FC7A541AF9B36900BBBD0D /* NSMutableDictionary+SCParam.m in Sources */,
+				4401C96A1BDDC9EA009032D4 /* JSONKit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
