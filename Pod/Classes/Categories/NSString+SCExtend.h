@@ -23,6 +23,18 @@
 - (NSString *) SHA1String;
 
 /**
+ *  Base64
+ */
+- (NSString *) base64EncodedString;
+
+- (NSString *) base64DecodedString;
+
+/**
+ *  URL Encoded
+ */
+- (NSString *) urlEncodedString;
+
+/**
  *  空格过滤
  */
 - (NSString *) trim;
@@ -30,8 +42,6 @@
 - (NSNumber *) numericValue;
 
 + (void) printFontAndFamilyName;
-
-- (NSString *) urlEncodedString;
 
 - (CGSize) sizeWithFont:(UIFont *)font maxWidth:(CGFloat)width;
 

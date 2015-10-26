@@ -74,7 +74,8 @@
 #define     ABS_FILE_PATH(file) [NSString stringWithFormat:@"%@/Documents/%@", NSHomeDirectory(),file]
 
 // APP 版本号
-#define     APP_VERSION         [[[NSBundle mainBundle] infoDictionary] objectForKey:(NSString *)kCFBundleVersionKey]
+#define     APP_VERSION         [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleShortVersionString"]
+#define     BUILD_VERSION       [[[NSBundle mainBundle] infoDictionary] objectForKey:(NSString *)kCFBundleVersionKey]
 
 /**
  *  屏幕

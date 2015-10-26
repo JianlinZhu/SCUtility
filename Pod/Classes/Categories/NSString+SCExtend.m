@@ -47,6 +47,25 @@
     return output;
 }
 
+- (NSString *) base64EncodedString
+{
+    // Create NSData object
+    NSData *nsdata = [self dataUsingEncoding:NSUTF8StringEncoding];
+    
+    // Get NSString from NSData object in Base64
+    return [nsdata base64EncodedStringWithOptions:0];
+}
+
+- (NSString *) base64DecodedString
+{
+    // NSData from the Base64 encoded str
+    NSData *nsdataFromBase64String = [[NSData alloc]
+                                      initWithBase64EncodedString:self options:0];
+    
+    // Decoded NSString from the NSData
+    return [[NSString alloc] initWithData:nsdataFromBase64String encoding:NSUTF8StringEncoding];
+}
+
 - (NSString *) trim
 {
     NSCharacterSet *set = [NSCharacterSet whitespaceCharacterSet];

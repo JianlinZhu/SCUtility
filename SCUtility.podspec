@@ -9,10 +9,10 @@
 
 Pod::Spec.new do |s|
   s.name             = "SCUtility"
-  s.version          = "1.0.0"
-  s.summary          = "SCUtility pod test . "
+  s.version          = "1.0.1"
+  s.summary          = "SCUtility pod library"
   s.description      = <<-DESC
-                       Testing Podspec of SCUtility
+                       Update Podspec of SCUtility
 
                        * Markdown format.
                        * Don't worry about the indent, we strip it!

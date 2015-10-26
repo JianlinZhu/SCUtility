@@ -41,6 +41,8 @@
 		44CE23CB1AF8C50A005FFE8B /* UIButton+SCExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = 44CE23C91AF8C50A005FFE8B /* UIButton+SCExtend.m */; };
 		44CE23CE1AF8C64E005FFE8B /* UIScreen+Scale.h in Headers */ = {isa = PBXBuildFile; fileRef = 44CE23CC1AF8C64E005FFE8B /* UIScreen+Scale.h */; };
 		44CE23CF1AF8C64E005FFE8B /* UIScreen+Scale.m in Sources */ = {isa = PBXBuildFile; fileRef = 44CE23CD1AF8C64E005FFE8B /* UIScreen+Scale.m */; };
+		44F37C501B671266002AB22D /* NSData+SCExtend.h in Headers */ = {isa = PBXBuildFile; fileRef = 44F37C4E1B671266002AB22D /* NSData+SCExtend.h */; };
+		44F37C511B671266002AB22D /* NSData+SCExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = 44F37C4F1B671266002AB22D /* NSData+SCExtend.m */; };
 		44FC7A431AF9AF0D00BBBD0D /* NSString+SCExtend.h in Headers */ = {isa = PBXBuildFile; fileRef = 44FC7A411AF9AF0D00BBBD0D /* NSString+SCExtend.h */; };
 		44FC7A441AF9AF0D00BBBD0D /* NSString+SCExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = 44FC7A421AF9AF0D00BBBD0D /* NSString+SCExtend.m */; };
 		44FC7A471AF9B21400BBBD0D /* NSNumber+SCExtend.h in Headers */ = {isa = PBXBuildFile; fileRef = 44FC7A451AF9B21400BBBD0D /* NSNumber+SCExtend.h */; };
@@ -105,6 +107,8 @@
 		44CE23C91AF8C50A005FFE8B /* UIButton+SCExtend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+SCExtend.m"; sourceTree = "<group>"; };
 		44CE23CC1AF8C64E005FFE8B /* UIScreen+Scale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScreen+Scale.h"; sourceTree = "<group>"; };
 		44CE23CD1AF8C64E005FFE8B /* UIScreen+Scale.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScreen+Scale.m"; sourceTree = "<group>"; };
+		44F37C4E1B671266002AB22D /* NSData+SCExtend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+SCExtend.h"; sourceTree = "<group>"; };
+		44F37C4F1B671266002AB22D /* NSData+SCExtend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+SCExtend.m"; sourceTree = "<group>"; };
 		44FC7A411AF9AF0D00BBBD0D /* NSString+SCExtend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SCExtend.h"; sourceTree = "<group>"; };
 		44FC7A421AF9AF0D00BBBD0D /* NSString+SCExtend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SCExtend.m"; sourceTree = "<group>"; };
 		44FC7A451AF9B21400BBBD0D /* NSNumber+SCExtend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+SCExtend.h"; sourceTree = "<group>"; };
@@ -307,6 +311,8 @@
 				44FC7A561AF9B3D200BBBD0D /* UIColor+SCExtend.m */,
 				44FC7A5D1AF9B42300BBBD0D /* UIDevice+SCExtend.h */,
 				44FC7A5E1AF9B42300BBBD0D /* UIDevice+SCExtend.m */,
+				44F37C4E1B671266002AB22D /* NSData+SCExtend.h */,
+				44F37C4F1B671266002AB22D /* NSData+SCExtend.m */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
@@ -335,6 +341,7 @@
 				44FC7A4B1AF9B27E00BBBD0D /* UIImage+SCExtend.h in Headers */,
 				440ACCBC1AF8680B00A09136 /* NSObject+SCBlock.h in Headers */,
 				440ACCAF1AF85C0900A09136 /* SCLog.h in Headers */,
+				44F37C501B671266002AB22D /* NSData+SCExtend.h in Headers */,
 				44FC7A511AF9B36900BBBD0D /* NSDictionary+SCParam.h in Headers */,
 				44FC7A5F1AF9B42300BBBD0D /* UIDevice+SCExtend.h in Headers */,
 				440ACCB21AF85D2100A09136 /* SCUtility-Prefix.pch in Headers */,
@@ -391,7 +398,7 @@
 		440ACC5A1AF8596E00A09136 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0630;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = iChint;
 				TargetAttributes = {
 					440ACC621AF8596E00A09136 = {
@@ -450,6 +457,7 @@
 				440ACCAE1AF85C0900A09136 /* Reachability.m in Sources */,
 				440ACC981AF85AA100A09136 /* DDTTYLogger.m in Sources */,
 				440ACC921AF85AA100A09136 /* DDASLLogger.m in Sources */,
+				44F37C511B671266002AB22D /* NSData+SCExtend.m in Sources */,
 				440ACC941AF85AA100A09136 /* DDFileLogger.m in Sources */,
 				44FC7A441AF9AF0D00BBBD0D /* NSString+SCExtend.m in Sources */,
 				440ACCBF1AF8680B00A09136 /* NSDate+SCExtend.m in Sources */,
@@ -507,6 +515,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -585,6 +594,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ichint.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -602,6 +612,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ichint.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -620,6 +631,7 @@
 				);
 				INFOPLIST_FILE = SCUtilityTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ichint.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -633,6 +645,7 @@
 				);
 				INFOPLIST_FILE = SCUtilityTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ichint.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

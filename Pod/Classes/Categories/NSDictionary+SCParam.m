@@ -42,7 +42,7 @@
 
 - (BOOL) checkNull:(id)object
 {
-    return (object != nil);
+    return ((object != nil) && ![object isEqual:[NSNull null]]);
 }
 
 @end
