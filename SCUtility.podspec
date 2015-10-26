@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "SCUtility"
-  s.version          = “1.0.3”
+  s.version          = "1.0.3"
   s.summary          = "SCUtility pod library"
   s.description      = <<-DESC
                        Update Podspec of SCUtility
