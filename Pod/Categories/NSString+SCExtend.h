@@ -52,4 +52,18 @@
 
 - (NSString *) unicodeString;
 
+/**
+ *  手机号格式有效性校验
+ *
+ *  @return YES/NO
+ */
+- (BOOL) isValidatePhone;
+
+/**
+ *  密码格式有效性校验
+ *
+ *  @return YES/NO
+ */
+- (BOOL) isValidatePassword;
+
 @end

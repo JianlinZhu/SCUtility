@@ -191,4 +191,39 @@
     return [self toStringWithFormat:@"HH:mm"];
 }
 
+- (BOOL) isDateExpired
+{
+    return ([self compare:[NSDate date]] == NSOrderedAscending);
+}
+
+// 判断日期是今天，昨天还是明天
+- (NSString *) compareDateWithFormat:(NSString *)format
+{
+    NSTimeInterval secondsPerDay = 24 * 60 * 60;
+    NSDate *today = [[NSDate alloc] init];
+    NSDate *tomorrow, *yesterday;
+    
+    tomorrow = [today dateByAddingTimeInterval:secondsPerDay];
+    yesterday = [today dateByAddingTimeInterval:(-secondsPerDay)];
+    
+    // 10 first characters of description is the calendar date:
+    NSString * todayString = [[today description] substringToIndex:10];
+    NSString * yesterdayString = [[yesterday description] substringToIndex:10];
+    NSString * tomorrowString = [[tomorrow description] substringToIndex:10];
+    
+    NSString * dateString = [[self description] substringToIndex:10];
+    
+    if ([dateString isEqualToString:todayString]) {
+        return @"今天";
+    }
+    else if ([dateString isEqualToString:yesterdayString]) {
+        return @"昨天";
+    }
+    else if ([dateString isEqualToString:tomorrowString]) {
+        return @"明天";
+    }
+    
+    return [self formattedDateWithFormatString:format];
+}
+
 @end
