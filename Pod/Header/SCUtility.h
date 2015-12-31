@@ -9,6 +9,8 @@
 #import "SCMacroDefines.h"
 #import "SCCategory.h"
 #import "SCLog.h"
+#import "SCUISignal.h"
 
+#import "InternationalUtil.h"
 #import "UncaughtExceptionHandler.h"
 #import "NetWorkUtils.h"
