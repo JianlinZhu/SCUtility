@@ -13,7 +13,7 @@
  *  internationalization
  */
 #define InternationalizationName @"International"
-#define InternationalString(key) [[InternationalControl bundle] localizedStringForKey:key value:nil table:InternationalizationName]
+#define InternationalString(key) [[InternationalUtil bundle] localizedStringForKey:key value:nil table:InternationalizationName]
 
 /**
  *  本地化语言 工具类
