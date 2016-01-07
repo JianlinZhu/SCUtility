@@ -36,6 +36,11 @@ static NSBundle *bundle = nil;
     }
     // 获取文件路径
     NSString *path = [[NSBundle mainBundle] pathForResource:string ofType:@"lproj"];
+    if (!path) {
+        path = [[NSBundle mainBundle] pathForResource:@"en" ofType:@"lproj"];
+        [userDefaults setValue:@"en" forKey:@"userLanguage"];
+        [userDefaults synchronize];
+    }
     // 生成bundle
     bundle = [NSBundle bundleWithPath:path];
 }
