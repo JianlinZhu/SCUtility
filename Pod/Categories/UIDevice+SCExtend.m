@@ -40,13 +40,16 @@
                             @"iPhone6,2",
                             @"iPhone7,1",
                             @"iPhone7,2",
-                            
+                            @"iPhone8,1",
+                            @"iPhone8,2",
+                      
                             @"iPod1,1",
                             @"iPod2,1",
                             @"iPod3,1",
                             @"iPod4,1",
                             @"iPod5,1",
-                            
+                            @"iPod7,1",
+
                             @"iPad1,1",
                             @"iPad2,1",
                             @"iPad2,2",
@@ -61,13 +64,22 @@
                             @"iPad4,1",
                             @"iPad4,2",
                             @"iPad4,3",
-                            
+                         
                             @"iPad2,5",
                             @"iPad2,6",
                             @"iPad2,7",
                             @"iPad4,4",
                             @"iPad4,5",
-                            @"iPad4,6"
+                            @"iPad4,6",
+                            
+                            @"iPad5,1",
+                            @"iPad5,2",
+                            @"iPad5,3",
+                            @"iPad5,4",
+                            @"iPad6,3",
+                            @"iPad6,4",
+                            @"iPad6,7",
+                            @"iPad6,8"
                             ];
     NSArray *modelNameArray = @[
                                 @"iPhone Simulator", @"iPhone Simulator",
@@ -87,13 +99,16 @@
                                 @"iPhone 5s",
                                 @"iPhone 6 Plus",
                                 @"iPhone 6",
-                                
+                                @"iPhone 6s",
+                                @"iPhone 6s Plus",
+      
                                 @"iPod Touch 1G",
                                 @"iPod Touch 2G",
                                 @"iPod Touch 3G",
                                 @"iPod Touch 4G",
                                 @"iPod Touch 5G",
-                                
+                                @"iPod Touch 6G",
+
                                 @"iPad",
                                 @"iPad 2",
                                 @"iPad 2",
@@ -114,7 +129,16 @@
                                 @"ipad mini",
                                 @"iPad mini 2",
                                 @"iPad mini 2",
-                                @"ipad mini 2"
+                                @"ipad mini 2",
+                                
+                                @"iPad mini 4",
+                                @"iPad mini 4",
+                                @"iPad Air 2",
+                                @"iPad Air 2",
+                                @"iPad Pro 9.7‑inch",
+                                @"iPad Pro 9.7‑inch",
+                                @"iPad Pro 12.9‑inch",
+                                @"iPad Pro 12.9‑inch"
                                 ];
     
     NSInteger modelIndex = - 1;
