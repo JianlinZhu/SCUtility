@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.summary          = 'SCUtility Library'
 
   s.description      = <<-DESC
-                       SCUtility Library
+                       SCUtility is a private utility library .
                        DESC
 
   s.homepage         = 'https://github.com/JianlinZhu/SCUtility'

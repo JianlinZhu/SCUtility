@@ -5,7 +5,7 @@
 //  Created by Jarry on 13-6-8.
 //  Copyright (c) 2013年 Jarry. All rights reserved.
 //
-#import "CocoaLumberjack.h"
+#import <CocoaLumberjack/CocoaLumberjack.h>
 
 #if DEBUG
 static const DDLogLevel ddLogLevel = DDLogLevelVerbose;
