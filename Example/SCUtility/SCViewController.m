@@ -20,7 +20,13 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     
-    INFOLOG(@"Test Log");
+    [SCLog initLog];
+    
+    DEBUGLOG(@"Debug Log");
+    WARNLOG(@"Warning Log");
+    ERRORLOG(@"Error Log");
+    VERBOSELOG(@"VERBOSE Log");
+    INFOLOG(@"Info Log");
 }
 
 - (void)didReceiveMemoryWarning

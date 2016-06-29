@@ -18,6 +18,9 @@ static BOOL isColorEnabled = NO;
 	[DDLog addLogger:[DDASLLogger sharedInstance]];
 	[DDLog addLogger:[DDTTYLogger sharedInstance]];
     [[DDTTYLogger sharedInstance] setColorsEnabled:YES];
+    [[DDTTYLogger sharedInstance] setForegroundColor:[UIColor blueColor] backgroundColor:[UIColor whiteColor] forFlag:DDLogFlagInfo];
+    [[DDTTYLogger sharedInstance] setForegroundColor:[UIColor redColor] backgroundColor:[UIColor whiteColor] forFlag:DDLogFlagError];
+    [[DDTTYLogger sharedInstance] setForegroundColor:[UIColor grayColor] backgroundColor:[UIColor whiteColor] forFlag:DDLogFlagVerbose];
 }
 
 + (void) SCLog:(NSInteger)level
@@ -31,17 +34,17 @@ static BOOL isColorEnabled = NO;
     NSString* levelDesc = @"DEBUG";
     switch (level)
     {
-        case LOG_LEVEL_INFO:
+        case DDLogLevelInfo:
         {
             levelDesc = @"INFO";
             break;
         }
-        case LOG_LEVEL_WARN:
+        case DDLogLevelWarning:
         {
             levelDesc = @"WARNING";
             break;
         }
-        case LOG_LEVEL_ERROR:
+        case DDLogLevelError:
         {
             levelDesc = @"ERROR";
             break;
@@ -65,22 +68,27 @@ static BOOL isColorEnabled = NO;
         
     switch (level)
     {
-        case LOG_LEVEL_DEBUG:
+        case DDLogLevelVerbose:
+        {
+            DDLogVerbose(@"%@", newFormat);
+            break;
+        }
+        case DDLogLevelDebug:
         {
             DDLogDebug(@"%@", newFormat);
             break;
         }
-        case LOG_LEVEL_INFO:
+        case DDLogLevelInfo:
         {
             DDLogInfo(@"%@", newFormat);
             break;
         }
-        case LOG_LEVEL_WARN:
+        case DDLogLevelWarning:
         {
             DDLogWarn(@"%@", newFormat);
             break;
         }
-        case LOG_LEVEL_ERROR:
+        case DDLogLevelError:
         {
             DDLogError(@"%@", newFormat);
             break;
