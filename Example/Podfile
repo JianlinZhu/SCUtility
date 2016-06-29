@@ -1,3 +1,11 @@
-platform :ios, '7.0'
+use_frameworks!
 
-pod 'SCUtility', :path => '../../SCUtility/SCUtility.podspec'
+target 'SCUtility_Example' do
+  pod 'SCUtility', :path => '../'
+
+  target 'SCUtility_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
