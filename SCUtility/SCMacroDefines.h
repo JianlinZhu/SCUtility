@@ -59,6 +59,49 @@
 #define     ARC_BRIDGE
 #endif
 
+/**
+ Synthsize a weak or strong reference.
+ 
+ Example:
+ @weakify(self)
+ [self doSomething^{
+ @strongify(self)
+ if (!self) return;
+ ...
+ }];
+ */
+#ifndef weakify
+#if DEBUG
+#if __has_feature(objc_arc)
+#define weakify(object) autoreleasepool{} __weak __typeof__(object) weak##_##object = object;
+#else
+#define weakify(object) autoreleasepool{} __block __typeof__(object) block##_##object = object;
+#endif
+#else
+#if __has_feature(objc_arc)
+#define weakify(object) try{} @finally{} {} __weak __typeof__(object) weak##_##object = object;
+#else
+#define weakify(object) try{} @finally{} {} __block __typeof__(object) block##_##object = object;
+#endif
+#endif
+#endif
+
+#ifndef strongify
+#if DEBUG
+#if __has_feature(objc_arc)
+#define strongify(object) autoreleasepool{} __typeof__(object) object = weak##_##object;
+#else
+#define strongify(object) autoreleasepool{} __typeof__(object) object = block##_##object;
+#endif
+#else
+#if __has_feature(objc_arc)
+#define strongify(object) try{} @finally{} __typeof__(object) object = weak##_##object;
+#else
+#define strongify(object) try{} @finally{} __typeof__(object) object = block##_##object;
+#endif
+#endif
+#endif
+
 // G－C－D
 #define     GCD_DEFAULT(block)  dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), block)
 #define     GCD_MAIN(block)     dispatch_async(dispatch_get_main_queue(),block)
@@ -101,6 +144,8 @@
  */
 #define     RGBACOLOR(r,g,b,a)  [UIColor colorWithRed:(r)/255.0f green:(g)/255.0f blue:(b)/255.0f alpha:(a)]
 #define     RGBCOLOR(r,g,b)     RGBACOLOR(r,g,b,1.0)
+
+#define     COLOR_HEX(hex)      [UIColor colorWithHexString:hex]
 
 #define     CLEAR_COLOR         [UIColor clearColor]
 #define     RED_COLOR           [UIColor redColor]

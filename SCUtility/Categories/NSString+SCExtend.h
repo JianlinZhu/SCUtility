@@ -57,7 +57,7 @@
  *
  *  @return YES/NO
  */
-- (BOOL) isValidatePhone;
+- (BOOL) isValidateMobile;
 
 /**
  *  密码格式有效性校验
@@ -65,5 +65,30 @@
  *  @return YES/NO
  */
 - (BOOL) isValidatePassword;
+
+/**
+ *  邮箱格式有效性校验
+ *
+ *  @return YES/NO
+ */
+- (BOOL) isValidateEMail;
+
+/**
+ *  用户名格式有效性校验
+ *
+ *  @return YES/NO
+ */
+- (BOOL) isValidateUsername;
+
+/**
+ *  判断是否为Int型
+ *  @return YES/NO
+ */
+- (BOOL) isPureInt;
+/**
+ *  判断是否为浮点型
+ *  @return YES/NO
+ */
+- (BOOL) isPureFloat;
 
 @end

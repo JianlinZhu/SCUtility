@@ -42,7 +42,12 @@
                             @"iPhone7,2",
                             @"iPhone8,1",
                             @"iPhone8,2",
-                      
+                            @"iPhone8,4",
+                            @"iPhone9,1",
+                            @"iPhone9,3",
+                            @"iPhone9,2",
+                            @"iPhone9,4",
+
                             @"iPod1,1",
                             @"iPod2,1",
                             @"iPod3,1",
@@ -71,7 +76,10 @@
                             @"iPad4,4",
                             @"iPad4,5",
                             @"iPad4,6",
-                            
+                            @"iPad4,7",
+                            @"iPad4,8",
+                            @"iPad4,9",
+
                             @"iPad5,1",
                             @"iPad5,2",
                             @"iPad5,3",
@@ -101,7 +109,12 @@
                                 @"iPhone 6",
                                 @"iPhone 6s",
                                 @"iPhone 6s Plus",
-      
+                                @"iPhone SE",
+                                @"iPhone 7",
+                                @"iPhone 7",
+                                @"iPhone 7 Plus",
+                                @"iPhone 7 Plus",
+
                                 @"iPod Touch 1G",
                                 @"iPod Touch 2G",
                                 @"iPod Touch 3G",
@@ -129,8 +142,11 @@
                                 @"ipad mini",
                                 @"iPad mini 2",
                                 @"iPad mini 2",
-                                @"ipad mini 2",
-                                
+                                @"iPad mini 2",
+                                @"iPad mini 3",
+                                @"iPad mini 3",
+                                @"iPad mini 3",
+
                                 @"iPad mini 4",
                                 @"iPad mini 4",
                                 @"iPad Air 2",

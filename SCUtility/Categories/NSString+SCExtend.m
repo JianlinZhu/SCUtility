@@ -138,9 +138,9 @@
 }
 
 // 手机格式检测
-- (BOOL) isValidatePhone
+- (BOOL) isValidateMobile
 {
-    NSString *phoneRegex = @"^((13[0-9])|(15[^4,\\D])|(18[0,0-9]))\\d{8}$";
+    NSString *phoneRegex = @"^1(3[0-9]|4[57]|5[0-35-9]|7[01678]|8[0-9])\\d{8}$";
     NSPredicate *phoneTest = [NSPredicate predicateWithFormat:@"SELF MATCHES %@",phoneRegex];
     return [phoneTest evaluateWithObject:self];
 }
@@ -151,6 +151,35 @@
     NSString *passwordRegex = @"(?!^\\d+$)(?!^[a-zA-Z]+$)(?!^[_#@]+$).{6,16}";
     NSPredicate *passwordTest = [NSPredicate predicateWithFormat:@"SELF MATCHES %@", passwordRegex];
     return [passwordTest evaluateWithObject:self];
+}
+
+- (BOOL) isValidateEMail
+{
+    NSString *emailRegex = @"^[a-z0-9]+([._\\-]*[a-z0-9])*@([a-z0-9]+[-a-z0-9]*[a-z0-9]+.){1,63}[a-z0-9]+$";
+    NSPredicate *emailTest = [NSPredicate predicateWithFormat:@"SELF MATCHES %@",emailRegex];
+    return [emailTest evaluateWithObject:self];
+}
+
+- (BOOL) isValidateUsername
+{
+    NSString *userRegex = @"^[a-zA-z][a-zA-Z0-9_]{3,16}$";
+    NSPredicate *userTest = [NSPredicate predicateWithFormat:@"SELF MATCHES %@",userRegex];
+    return [userTest evaluateWithObject:self];
+}
+
+- (BOOL) isPureInt
+{
+    NSScanner* scan = [NSScanner scannerWithString:self];
+    int val;
+    return [scan scanInt:&val] && [scan isAtEnd];
+}
+
+// 判断是否为浮点型
+- (BOOL) isPureFloat
+{
+    NSScanner* scan = [NSScanner scannerWithString:self];
+    float val;
+    return[scan scanFloat:&val] && [scan isAtEnd];
 }
 
 @end

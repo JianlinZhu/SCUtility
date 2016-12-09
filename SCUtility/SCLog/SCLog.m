@@ -6,6 +6,7 @@
 //  Copyright (c) 2013年 Jarry. All rights reserved.
 //
 
+#import <CocoaLumberjack/DDLogMacros.h>
 #import "SCLog.h"
 
 static BOOL isColorEnabled = NO;

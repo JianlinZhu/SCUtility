@@ -14,13 +14,13 @@ PODS:
   - AFNetworking/Serialization (3.1.0)
   - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
-  - CocoaLumberjack (2.3.0):
-    - CocoaLumberjack/Default (= 2.3.0)
-    - CocoaLumberjack/Extensions (= 2.3.0)
-  - CocoaLumberjack/Core (2.3.0)
-  - CocoaLumberjack/Default (2.3.0):
+  - CocoaLumberjack (3.0.0):
+    - CocoaLumberjack/Default (= 3.0.0)
+    - CocoaLumberjack/Extensions (= 3.0.0)
+  - CocoaLumberjack/Core (3.0.0)
+  - CocoaLumberjack/Default (3.0.0):
     - CocoaLumberjack/Core
-  - CocoaLumberjack/Extensions (2.3.0):
+  - CocoaLumberjack/Extensions (3.0.0):
     - CocoaLumberjack/Default
   - SCUtility (1.1.0):
     - AFNetworking
@@ -39,9 +39,9 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
-  CocoaLumberjack: 97fab7ee5f507fe54445cca7ea80f926729cfd15
-  SCUtility: 199ee7c0ffacb091efb404d847b96f552f782fd7
+  CocoaLumberjack: c823149bccc5519a9447aeb433be7b1212a7d6a5
+  SCUtility: 52b92595bfd3e8eeea72746687352ec9761c8974
 
 PODFILE CHECKSUM: 980fb042817aec56a59b0e5144e858f86f54ef0d
 
-COCOAPODS: 1.0.1
+COCOAPODS: 1.1.1
