@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SCUtility'
-  s.version          = '1.1.0'
+  s.version          = '1.1.2'
   s.summary          = 'SCUtility Library'
 
   s.description      = <<-DESC

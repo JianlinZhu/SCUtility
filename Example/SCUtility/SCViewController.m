@@ -21,7 +21,7 @@
 	// Do any additional setup after loading the view, typically from a nib.
     
     [SCLog initLog];
-    
+        
     DEBUGLOG(@"Debug Log");
     WARNLOG(@"Warning Log");
     ERRORLOG(@"Error Log");
