@@ -174,7 +174,7 @@
 /**
  *  Block Defines
  */
-typedef void (^voidBlock)();
+typedef void (^voidBlock)(void);
 typedef void (^idBlock)( id content);
 typedef void (^idBOOLBlock)( id content, BOOL direction);
 typedef void (^idRangeBlock)( id content1, id content2);
