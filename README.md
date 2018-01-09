@@ -20,6 +20,16 @@ it, simply add the following line to your Podfile:
 pod "SCUtility"
 ```
 
+## Update
+
+1. 修改源码
+2. 编辑Podspec文件
+3. git commit / git push
+4. git tag -m "commit comment" "1.1.0"
+   git push --tags
+5. pod lib lint --allow-warnings
+6. pod trunk push SCUtility.podspec
+
 ## Author
 
 Jarry, jarry@sucang.cn
